@@ -1,2 +1,3 @@
-robotframework
-robotframework-browser
+robotframework==7.2.2
+robotframework-browser==19.4.0
+PyYAML==6.0.2
