@@ -39,3 +39,6 @@ On Windows:
 
 4. 🧱 Install Browser Library and Playwright Browsers
     rfbrowser init
+
+🧪 Running Tests
+robot -d Results -L TRACE Test/
