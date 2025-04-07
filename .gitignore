@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env/
+*.log
+
+# Robot Framework
+output.xml
+log.html
+report.html
+results/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
