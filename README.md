@@ -12,6 +12,8 @@ robot-tests/
 ├── Keywords/             # Reusable keywords or variables
 │   └── common_keywords.robot  
 ├── Results/              # Output files (created after test execution)
+├── Script/               # Script to run robot on jenkins
+│  └── run.sh 
 ├── README.md             # Project documentation
 └── requirements.txt      # Python dependencies
 
