@@ -24,7 +24,7 @@ pipeline {
                 sh """
                 source ${VENV_DIR}/bin/activate
                 mkdir -p ${ROBOT_REPORT_DIR}
-                robot -d ${ROBOT_REPORT_DIR} -L TRACE Tests/
+                robot -d ${ROBOT_REPORT_DIR} -L TRACE Test/
                 """
             }
         }
