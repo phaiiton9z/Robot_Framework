@@ -22,7 +22,7 @@ rfbrowser init
 
 echo "✅ Running Robot Framework tests..."
 mkdir -p Results
-robot -d Results -L TRACE Tests/
+robot -d Results -v headless:true -L TRACE Tests/
 
 echo "✅ Cleaning up..."
 deactivate
