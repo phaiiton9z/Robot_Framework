@@ -1,0 +1,39 @@
+login_tc001:
+  username: "standard_user"
+  password: "secret_sauce"
+  product: "Swag Labs"
+
+login_tc002:
+  username: "locked_out_user"
+  password: "secret_sauce"
+  error_message: "Epic sadface: Sorry, this user has been locked out."
+
+login_tc003:
+  username: "problem_user"
+  password: "secret_sauce"
+  product: "Swag Labs"
+
+login_tc004:
+  username: "performance_glitch_user"
+  password: "secret_sauce"
+  product: "Swag Labs"
+
+login_tc005:
+  username: "error_user"
+  password: "secret_sauce"
+  product: "Swag Labs"
+
+login_tc006:
+  username: "visual_user"
+  password: "secret_sauce"
+  product: "Swag Labs"
+
+login_tc007:
+  username: "standard_user"
+  password: "wrong_password"
+  error_message: "Epic sadface: Username and password do not match any user in this service"
+
+login_tc008:
+  username: ""
+  password: ""
+  error_message: "Epic sadface: Username is required"

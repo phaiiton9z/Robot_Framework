@@ -12,6 +12,7 @@ venv/
 output.xml
 log.html
 report.html
+*.xml
 results/
 
 # VSCode

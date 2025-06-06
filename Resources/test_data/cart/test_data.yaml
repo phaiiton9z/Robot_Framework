@@ -1,0 +1,17 @@
+cart_tc001:
+  product_name: "Sauce Labs Backpack"
+  product_id: "sauce-labs-backpack"
+  quantity: 1
+  total_price: "$29.99"
+
+cart_tc002:
+  product_1:
+    product_name: "Sauce Labs Backpack"
+    product_id: "sauce-labs-backpack"
+    quantity: 1
+    total_price: "$29.99"
+  product_2:
+    product_name: "Sauce Labs Bike Light"
+    product_id: "sauce-labs-bike-light"
+    quantity: 1
+    total_price: "$9.99"
