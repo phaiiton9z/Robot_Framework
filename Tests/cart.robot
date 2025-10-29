@@ -4,8 +4,10 @@ Resource    ../Keywords/features/cart/add_cart_features.robot
 Variables   ../Resources/test_data/user.yaml
 Variables   ../Resources/test_data/cart/test_data.yaml
 
-Suite Setup    Run Keywords     Open Browser and go to website '${url.saucedemo}'
-...    AND     Login with username '${correct.username}' and password '${correct.password}'
+test Setup    Run Keywords     Open Browser and go to website '${url.saucedemo}'
+...    AND    Login with username '${correct.username}' and password '${correct.password}'
+
+Task Tags    cart
 
 *** Test Cases ***
 Add 1 item to cart and verify

@@ -2,7 +2,7 @@
 Resource    ../Keywords/features/login/login_features.robot
 Variables   ../Resources/test_data/login/test_data.yaml
 
-Suite Setup       Open Browser and go to website '${url.saucedemo}'
+Test Setup        Open Browser and go to website '${url.saucedemo}'
 Test Teardown     Logout website
 
 Test Tags         login
@@ -27,7 +27,6 @@ TC_003 login to website saucedemo with problem user and password
 
     Login with username '${login_tc003.username}' and password '${login_tc003.password}'
     Verify user products page is '${login_tc003.product}'
-
 
 TC_004 login to website saucedemo with performance glitch user user and password
     [Documentation]    Test case to login to saucedemo with performance glitch user and password
@@ -60,4 +59,3 @@ TC_008 login to website saucedemo with empty username and password
 
     Login with username '${login_tc008.username}' and password '${login_tc008.password}'
     Verify error message '${login_tc008.error_message}'
-
